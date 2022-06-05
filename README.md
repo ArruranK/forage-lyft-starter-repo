@@ -1,4 +1,4 @@
-Work done as aprt of the Lyft back-end engineering experience program
+Work done as part of the Lyft back-end engineering experience program
 
 Skills/Concepts learnt:
 
