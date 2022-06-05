@@ -14,7 +14,7 @@ class CapuletEngine(Engine):
         self.current_mileage = current_mileage
 
     def needs_service(self):
-        if self.current_mileage - self.last_service_mileage >= 30000:
+        if self.current_mileage - self.last_service_mileage > 30000:
             return True
         return False
 
@@ -26,7 +26,7 @@ class WilloughbyEngine(Engine):
         self.current_mileage = current_mileage
 
     def needs_service(self):
-        if self.current_mileage - self.last_service_mileage >= 60000:
+        if self.current_mileage - self.last_service_mileage > 60000:
             return True
         return False
 
